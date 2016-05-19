@@ -7,4 +7,3 @@ Featureliste:
 - Errechnen des nach bisheriger Beteiligung optimalen Restaurants
 - Bewerten (täglich nach dem Essen): Gewähltes Restaurant +, - in persönlicher Präferenz
 - Rankingalgorithmus: lange nicht gewähltes aufwerten
-
