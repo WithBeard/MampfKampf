@@ -1,0 +1,10 @@
+Ergebnis: Ein System zum bestimmen der besten Essensmöglichkeit für Alle oder Teilgruppen.
+
+Featureliste:
+- Einstellen neuer Restaurants, Grundbewertung erfassen
+- Wählen (täglich): Uhrzeit, Restaurant
+- Vorschläge (vor dem Wählen, siehe Ranking) (mehrere Spalten wie "lange nicht gehabt", "meine vorlieben"?)
+- Errechnen des nach bisheriger Beteiligung optimalen Restaurants
+- Bewerten (täglich nach dem Essen): Gewähltes Restaurant +, - in persönlicher Präferenz
+- Rankingalgorithmus: lange nicht gewähltes aufwerten
+
