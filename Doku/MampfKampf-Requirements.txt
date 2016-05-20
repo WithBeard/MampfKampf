@@ -2,6 +2,7 @@ Ergebnis: Ein System zum bestimmen der besten Essensmöglichkeit für Alle oder 
 
 Featureliste:
 - Einstellen neuer Restaurants, Grundbewertung erfassen
+- Erstellen neuer User
 - Wählen (täglich): Uhrzeit, Restaurant
 - Vorschläge (vor dem Wählen, siehe Ranking) (mehrere Spalten wie "lange nicht gehabt", "meine vorlieben"?)
 - Errechnen des nach bisheriger Beteiligung optimalen Restaurants
