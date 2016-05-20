@@ -1,10 +1,27 @@
 Ergebnis: Ein System zum bestimmen der besten Essensmöglichkeit für Alle oder Teilgruppen.
 
 Featureliste:
-- Einstellen neuer Restaurants, Grundbewertung erfassen
+- Einstellen neuer Restaurants
 - Erstellen neuer User
 - Wählen (täglich): Uhrzeit, Restaurant
 - Vorschläge (vor dem Wählen, siehe Ranking) (mehrere Spalten wie "lange nicht gehabt", "meine vorlieben"?)
 - Errechnen des nach bisheriger Beteiligung optimalen Restaurants
 - Bewerten (täglich nach dem Essen): Gewähltes Restaurant +, - in persönlicher Präferenz
 - Rankingalgorithmus: lange nicht gewähltes aufwerten
+
+Datenabhängigkeit:
+- Einstellen neuer Restaurants
+ -> Einzelnes Restaurant zur Liste, keine Abhängigkeiten
+- Erstellen neuer User
+ -> Einzelnen User in die Liste, keine Abhängigkeiten
+- Wählen (täglich): Uhrzeit, Restaurant
+ -> Vorbedingung: User eingeloggt
+ - Vorschläge (vor dem Wählen, siehe Ranking) (mehrere Spalten wie "lange nicht gehabt", "meine vorlieben"?)
+  -> Username bekannt, benötigt alle Restaurants und Relation User:"Alle Bewertungen des Users für die Restaurants"
+  - Rankingalgorithmus: lange nicht gewähltes aufwerten
+ - User wählt
+  -> Neue Datenstruktur: Userwahlen von heute
+ - Errechnen des nach bisheriger Beteiligung optimalen Restaurants
+  -> s.o.
+ - Bewerten (täglich nach dem Essen): Gewähltes Restaurant +, - in persönlicher Präferenz
+ 
